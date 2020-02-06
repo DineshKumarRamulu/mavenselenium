@@ -6,7 +6,7 @@ Feature: Mercury Login Test
     And I enter the "<username>" username
     And I enter the "<password>" password
     When I clickon the signin button
-    Then It should naviage to the Fight Finder page
+    Then It should naviage to the Fight Finder page successfully
 
     Examples: 
       | username | password | status  |
